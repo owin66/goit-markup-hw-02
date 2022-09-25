@@ -1,20 +1,23 @@
-a {
-  text-decoration: none;
+body {
+  font-family: 'Roboto';
+  font-style: normal;
 }
 .logo {
-  font-family: Oleo Script;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
   font-size: 26px;
-  font-weight: 400;
-  line-height: 36px;
+  line-height: 31px;
+  /* identical to box height */
+
   letter-spacing: 0.03em;
-  text-align: left;
   color: #2196f3;
 }
 .logo > span {
   color: #000000;
 }
 .main-navigation {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
@@ -25,6 +28,9 @@ a {
 }
 .page-header ul {
   list-style-type: none;
+}
+.page-header a {
+  text-decoration: none;
 }
 .main-navigation a:active {
   text-decoration: none;
@@ -109,4 +115,14 @@ a {
 }
 .page-footer ul {
   list-style-type: none;
+}
+.page-footer a {
+  text-decoration: none;
+}
+.page-footer address {
+  text-decoration: none;
+}
+.page-footer {
+  font-family: 'Roboto';
+  font-style: normal;
 }
