@@ -54,6 +54,9 @@ body {
 .contacts {
   color: var(--product-text-color);
 }
+.contacts:hover {
+  color: var(--brand-color);
+}
 .main-navigation a:link {
   color: var(--brand-color);
 }
