@@ -40,6 +40,10 @@ body {
 .page-header a {
   text-decoration: var(--of-text-decoration);
 }
+.main-navigation a:link {
+  text-decoration: var(--of-text-decoration);
+  color: var(--brand-color);
+}
 .main-navigation a:active {
   text-decoration: var(--of-text-decoration);
   color: var(--brand-color);
