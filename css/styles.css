@@ -46,10 +46,13 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--product-text-color);
 }
 .studio {
   color: var(--brand-color);
+}
+.contacts {
+  color: var(--product-text-color);
 }
 .main-navigation a:link {
   color: var(--brand-color);
