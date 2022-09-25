@@ -20,26 +20,25 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--color-nav);
+  color: var(--product-text-color);
 }
 .logo > span {
   color: var(--brand-color);
 }
-.main-navigation {
-  color: var(--color-nav);
+.main-navigation a {
+  color: var(--product-text-color);
 }
 .page-header {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 .page-header ul {
   list-style-type: var(--off-list-style-type);
 }
 .page-header a {
-  text-decoration: var(--of-text-decoration);
+  text-decoration: var(--off-text-decoration);
 }
 .filling h2 {
   font-weight: 700;
@@ -49,46 +48,32 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.studio a:active {
+.studio {
   color: var(--brand-color);
 }
 .main-navigation a:link {
-  text-decoration: var(--of-text-decoration);
   color: var(--brand-color);
-}
-.main-navigation a:visited {
-  text-decoration: var(--of-text-decoration);
-  color: var(--color-nav);
 }
 .main-navigation a:focus {
-  text-decoration: var(--of-text-decoration);
-  color: var(--brand-color);
+  color: var(--product-text-color);
 }
 .main-navigation a:hover {
-  text-decoration: var(--of-text-decoration);
   color: var(--brand-color);
 }
 .main-info {
   color: var(--background-text-color);
 }
 .main-info a:link {
-  text-decoration: var(--of-text-decoration);
   color: var(--background-text-color);
 }
 .main-info a:active {
-  text-decoration: var(--of-text-decoration);
   color: var(--brand-color);
 }
-.main-info a:visited {
-  text-decoration: var(--of-text-decoration);
-  color: var(--color-nav);
-}
 .main-info a:focus {
-  text-decoration: var(--of-text-decoration);
   color: var(--brand-color);
 }
 .main-info a:hover {
-  text-decoration: var(--of-text-decoration);
+  text-decoration: var(--off-text-decoration);
   color: var(--brand-color);
 }
 .page-main {
@@ -120,7 +105,7 @@ body {
   border: 0;
   border-radius: 0;
   background: var(--white-text-color);
-  color: var(--color-nav);
+  color: var(--product-text-color);
   border-color: var(--white-text-color);
   font-size: 16px;
   line-height: 1.62;
@@ -196,7 +181,7 @@ body {
   list-style-type: var(--off-list-style-type);
 }
 .page-footer a {
-  text-decoration: var(--of-text-decoration);
+  text-decoration: var(--off-text-decoration);
 }
 .page-footer address {
   font-style: normal;
@@ -218,23 +203,23 @@ body {
   line-height: 1.19px;
 }
 .info-footer a:link {
-  text-decoration: var(--of-text-decoration);
+  text-decoration: var(--off-text-decoration);
   color: var(--background-text-color);
 }
 .info-footer a:active {
-  text-decoration: var(--of-text-decoration);
+  text-decoration: var(--off-text-decoration);
   color: rgba(255, 255, 255, 0.6);
 }
 .info-footer a:visited {
-  text-decoration: var(--of-text-decoration);
+  text-decoration: var(--off-text-decoration);
   color: var(--color-nav);
 }
 .info-footer a:focus {
-  text-decoration: var(--of-text-decoration);
+  text-decoration: var(--off-text-decoration);
   color: var(--brand-color);
 }
 .info-footer a:hover {
-  text-decoration: var(--of-text-decoration);
+  text-decoration: var(--off-text-decoration);
   color: var(--brand-color);
 }
 .logo-footer {
