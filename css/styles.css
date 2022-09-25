@@ -40,6 +40,14 @@ body {
 .page-header a {
   text-decoration: var(--of-text-decoration);
 }
+.filling h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 .main-navigation a:link {
   text-decoration: var(--of-text-decoration);
   color: var(--brand-color);
@@ -138,7 +146,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--background-text-color);
+  color: #212121;
 }
 .page-middle h3 {
   font-weight: 700;
@@ -146,6 +154,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #212121;
 }
 .gallery ul {
   list-style-type: var(--off-list-style-type);
