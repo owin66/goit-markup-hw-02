@@ -1,21 +1,7 @@
-html {
-  font-family: 'Roboto';
-  font-style: normal;
-}
 a {
   text-decoration: none;
 }
-ul {
-  list-style-type: none;
-}
 .logo {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  text-align: left;
-
   font-family: Oleo Script;
   font-size: 26px;
   font-weight: 400;
@@ -27,7 +13,6 @@ ul {
 .logo > span {
   color: #000000;
 }
-
 .main-navigation {
   font-family: Roboto;
   font-size: 14px;
@@ -36,21 +21,92 @@ ul {
   letter-spacing: 0.02em;
   text-align: left;
   list-style-type: none;
+  color: #000000;
 }
-.main_info {
+.page-header ul {
+  list-style-type: none;
+}
+.main-navigation a:active {
+  text-decoration: none;
+  color: #2196f3;
+}
+.main-navigation a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+.main-navigation a:focus {
+  text-decoration: none;
+  color: #2196f3;
+}
+.main-navigation a:hover {
+  text-decoration: none;
+  color: #2196f3;
+}
+.main-info {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #757575;
+}
+.main-info a:link {
+  text-decoration: none;
+  color: #757575;
+}
+.main-info a:active {
+  text-decoration: none;
+  color: #2196f3;
+}
+.main-info a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+.main-info a:focus {
+  text-decoration: none;
+  color: #2196f3;
+}
+.main-info a:hover {
+  text-decoration: none;
+  color: #2196f3;
 }
 .page-main {
   background: #2f303a;
+}
+.page-middle ul {
+  list-style-type: none;
 }
 .page-main_main-text {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+}
+.page-main_main-text_button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+.page-middle p {
+  color: #757575;
+}
+.gallery ul {
+  list-style-type: none;
+}
+.team ul {
+  list-style-type: none;
+}
+.team h3 {
+  text-align: center;
+}
+.team p {
+  text-align: center;
+  color: #757575;
+}
+.page-footer ul {
+  list-style-type: none;
 }
