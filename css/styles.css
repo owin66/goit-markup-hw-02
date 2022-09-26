@@ -7,6 +7,7 @@
   --off-list-style-type: none;
   --white-text-color: #ffffff;
   --product-text-color: #212121;
+  --mail-color:rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: 'Roboto', sans-serif, serif;
@@ -49,12 +50,6 @@ body {
   color: var(--product-text-color);
 }
 .studio {
-  color: var(--brand-color);
-}
-.contacts {
-  color: var(--product-text-color);
-}
-.contacts:hover {
   color: var(--brand-color);
 }
 .main-navigation a:link {
@@ -103,6 +98,7 @@ body {
   border-radius: 4px;
   border-color: var(--brand-color);
   color: var(--white-text-color);
+  font-weight: 700;
   cursor: pointer;
   font-family: inherit;
   font-size: 16px;
@@ -145,7 +141,6 @@ body {
   color: var(--product-text-color);
 }
 .products p {
-  font-size: 16px;
   line-height: 1.88;
   color: var(--background-text-color);
 }
@@ -181,7 +176,7 @@ body {
 .team h3 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -214,11 +209,11 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
 }
 .info-footer a:link {
   text-decoration: var(--off-text-decoration);
-  color: var(--background-text-color);
+  color: var(--mail-color);
 }
 .info-footer a:active {
   text-decoration: var(--off-text-decoration);
