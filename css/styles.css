@@ -115,6 +115,7 @@ body {
   background: var(--white-text-color);
   color: var(--product-text-color);
   border-color: var(--white-text-color);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -146,6 +147,10 @@ body {
 .products p {
   font-size: 16px;
   line-height: 1.88;
+  color: var(--background-text-color);
+}
+.products ul {
+  list-style-type: var(--off-list-style-type);
 }
 .page-middle p {
   font-size: 14px;
@@ -161,6 +166,7 @@ body {
   text-transform: uppercase;
   color: #212121;
 }
+
 .gallery ul {
   list-style-type: var(--off-list-style-type);
 }
@@ -230,6 +236,7 @@ body {
   text-decoration: var(--off-text-decoration);
   color: var(--brand-color);
 }
+
 .logo-footer {
   font-family: 'Raleway';
   font-size: 26px;
