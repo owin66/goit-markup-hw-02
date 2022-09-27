@@ -7,7 +7,7 @@
   --off-list-style-type: none;
   --white-text-color: #ffffff;
   --product-text-color: #212121;
-  --mail-color:rgba(255, 255, 255, 0.6);
+  --mail-color: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: 'Roboto', sans-serif, serif;
@@ -55,10 +55,8 @@ body {
 .main-navigation a:link {
   color: var(--brand-color);
 }
+.main-navigation a:hover,
 .main-navigation a:focus {
-  color: var(--product-text-color);
-}
-.main-navigation a:hover {
   color: var(--brand-color);
 }
 .main-info {
